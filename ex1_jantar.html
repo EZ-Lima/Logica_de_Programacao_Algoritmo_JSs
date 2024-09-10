@@ -1,0 +1,14 @@
+/*
+Elaborar um programa que leia o valor do jantar. Calcule e informe o valor da taxa do garçom (10%) 
+e o valor total a ser pago.
+Primeiro: Entrada do valor do item
+Segundo: somar com a taxa de 10%
+Terceiro: apresentar o valor total a ser pago
+*/
+<meta charset="UTF8">
+<script>
+    const valorItem = Number(prompt("Digite o Valor do Consumível R$: "))
+    const taxaGarcom = valorItem *0.10
+    const total = valorItem + taxaGarcom
+    alert(`Taxa Garçom R$: ${taxaGarcom.toFixed(2)}\n Total R$: ${total.toFixed(2)}`)
+</script>
